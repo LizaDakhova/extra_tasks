@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\asus\documents\visual studio 2015\projects\vector_with_iterator\main.cpp(10): warning C4018: '<': signed/unsigned mismatch
+c:\users\asus\documents\visual studio 2015\projects\vector_with_iterator\main.cpp(18): warning C4018: '<': signed/unsigned mismatch
+  vector_with_iterator.vcxproj -> C:\Users\Asus\Documents\Visual Studio 2015\Projects\vector_with_iterator\Debug\vector_with_iterator.exe
+  vector_with_iterator.vcxproj -> C:\Users\Asus\Documents\Visual Studio 2015\Projects\vector_with_iterator\Debug\vector_with_iterator.pdb (Partial PDB)
