@@ -5,7 +5,8 @@
 
 using namespace std;
 
-Vector input(Vector &v, const size_t n) {
+template <typename T>
+Vector<T> input(Vector<T> &v, const size_t n) {
 	int value;
 	for (int i = 0; i < n; ++i) {
 		cin >> value;
@@ -14,7 +15,8 @@ Vector input(Vector &v, const size_t n) {
 	return v;
 }
 
-void print(const Vector &v) {
+template <typename T>
+void print(const Vector<T> &v) {
 	for (int i = 0; i < v.size(); ++i)
 		cout << v[i] << ' ';
 	cout << endl;
@@ -23,7 +25,7 @@ void print(const Vector &v) {
 int main() {
 	size_t n;
 	cin >> n;
-	Vector v;
+	Vector<int> v;
 	input(v, n);
 	sort(v.begin(), v.end());
 	print(v);

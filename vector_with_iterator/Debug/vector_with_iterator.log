@@ -1,5 +1,20 @@
 ﻿  main.cpp
-c:\users\asus\documents\visual studio 2015\projects\vector_with_iterator\main.cpp(10): warning C4018: '<': signed/unsigned mismatch
-c:\users\asus\documents\visual studio 2015\projects\vector_with_iterator\main.cpp(18): warning C4018: '<': signed/unsigned mismatch
-  vector_with_iterator.vcxproj -> C:\Users\Asus\Documents\Visual Studio 2015\Projects\vector_with_iterator\Debug\vector_with_iterator.exe
-  vector_with_iterator.vcxproj -> C:\Users\Asus\Documents\Visual Studio 2015\Projects\vector_with_iterator\Debug\vector_with_iterator.pdb (Partial PDB)
+c:\users\asus\documents\github\extra_tasks\vector_with_iterator\main.cpp(11): warning C4018: '<': signed/unsigned mismatch
+  c:\users\asus\documents\github\extra_tasks\vector_with_iterator\main.cpp(29): note: see reference to function template instantiation 'Vector<int> input<int>(Vector<int> &,const std::size_t)' being compiled
+c:\users\asus\documents\github\extra_tasks\vector_with_iterator\main.cpp(20): warning C4018: '<': signed/unsigned mismatch
+  c:\users\asus\documents\github\extra_tasks\vector_with_iterator\main.cpp(31): note: see reference to function template instantiation 'void print<int>(const Vector<int> &)' being compiled
+c:\users\asus\documents\github\extra_tasks\vector_with_iterator\vector.h(63): warning C4018: '<': signed/unsigned mismatch
+  c:\users\asus\documents\github\extra_tasks\vector_with_iterator\vector.h(59): note: while compiling class template member function 'Vector<int>::Vector(const Vector<int> &)'
+  c:\users\asus\documents\github\extra_tasks\vector_with_iterator\main.cpp(15): note: see reference to function template instantiation 'Vector<int>::Vector(const Vector<int> &)' being compiled
+  c:\users\asus\documents\github\extra_tasks\vector_with_iterator\vector.h(38): note: while compiling class template member function 'Vector<int>::Vector(void)'
+  c:\users\asus\documents\github\extra_tasks\vector_with_iterator\main.cpp(28): note: see reference to function template instantiation 'Vector<int>::Vector(void)' being compiled
+  c:\users\asus\documents\github\extra_tasks\vector_with_iterator\main.cpp(28): note: see reference to class template instantiation 'Vector<int>' being compiled
+c:\users\asus\documents\github\extra_tasks\vector_with_iterator\vector.h(115): warning C4018: '<': signed/unsigned mismatch
+  c:\users\asus\documents\github\extra_tasks\vector_with_iterator\vector.h(113): note: while compiling class template member function 'void Vector<int>::reserve(std::size_t)'
+  c:\users\asus\documents\github\extra_tasks\vector_with_iterator\vector.h(125): note: see reference to function template instantiation 'void Vector<int>::reserve(std::size_t)' being compiled
+  c:\users\asus\documents\github\extra_tasks\vector_with_iterator\vector.h(123): note: while compiling class template member function 'void Vector<int>::resize(std::size_t)'
+  c:\users\asus\documents\github\extra_tasks\vector_with_iterator\vector.h(131): note: see reference to function template instantiation 'void Vector<int>::resize(std::size_t)' being compiled
+  c:\users\asus\documents\github\extra_tasks\vector_with_iterator\vector.h(59): note: while compiling class template member function 'Vector<int>::Vector(const Vector<int> &)'
+  c:\users\asus\documents\github\extra_tasks\vector_with_iterator\main.cpp(15): note: see reference to function template instantiation 'Vector<int>::Vector(const Vector<int> &)' being compiled
+  vector_with_iterator.vcxproj -> C:\Users\Asus\Documents\GitHub\extra_tasks\vector_with_iterator\Debug\vector_with_iterator.exe
+  vector_with_iterator.vcxproj -> C:\Users\Asus\Documents\GitHub\extra_tasks\vector_with_iterator\Debug\vector_with_iterator.pdb (Partial PDB)
